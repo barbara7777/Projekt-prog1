@@ -3,8 +3,9 @@
 Za projekt bom analizirala prosta delovna mesta iz spletne strani študentskega servisa:
 https://www.studentski-servis.com/studenti/delo/prosta-dela
 
-Za posamezno delovno mesto bom zajela
+Za posamezno delovno mesto sem zajela
 - vrsto dela,
+- identifikacijsko številko dela,
 - vrsto delovnika, 
 - opis dela, 
 - plačilo, 
@@ -12,6 +13,6 @@ Za posamezno delovno mesto bom zajela
 - število prostih mest.
 
 Delovne hipoteze:
-Ali so v Ljubljani dela bolje plačana kot drugje po Sloveniji?
-Katera dela so najbolje plačana?
-Ali so dela z izmenskim delovnim časom bolje plačana?
+- Ali so v Ljubljani dela bolje plačana kot drugje po Sloveniji?
+- Katera dela so najbolje plačana?
+- Ali so dela z izmenskim delovnim časom bolje plačana?

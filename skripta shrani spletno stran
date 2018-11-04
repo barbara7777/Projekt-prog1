@@ -1,0 +1,27 @@
+import requests
+import os
+
+
+def naloziHTML(url):
+    r = requests.get(url)
+    r.encoding = "utf-8"    
+    return r.text
+
+pot = "D:/NE_BRIŠI,_SISTEM/NAMIZJE/Programiranje-1/naloga/podatki"
+
+
+def shrani(text, filename):
+    '''Write "text" to the file "filename" located in directory "directory",
+    creating "directory" if necessary. If "directory" is the empty string, use
+    the current directory.'''
+    os.makedirs(pot, exist_ok=True)
+    path = os.path.join(pot, filename)
+    with open(path, 'w', encoding='utf-8') as file_out:
+        file_out.write(text)
+
+url = "https://www.studentski-servis.com/index.php?t=prostaDela&page=1&perPage=3294"
+html = naloziHTML(url)
+shrani(html, "izhod.html")
+
+
+print("KONČANO")

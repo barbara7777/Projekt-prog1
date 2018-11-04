@@ -29,7 +29,7 @@ def loci_oglase():
 
 def slovar_iz_oglasa(oglas):
     vzorci = re.compile(
-        r'(?P<delovno_mesto>.*?)</span>.*?'
+        r'(?P<delovno_mesto>.*?)<.*?'
         r'icon_euro\.png" />\s*<strong>(?P<placilo>.*?)<.*?'
         r'location\.png" />\s*?<strong>(?P<lokacija>.*?)<.*?'
         r'jobContent col">\s*?<p>(?P<opis>.*?)[\n<].*?'
